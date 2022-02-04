@@ -1,8 +1,15 @@
-## Welcome to GitHub Pages
+## DLS
 
-You can use the [editor on GitHub](https://github.com/smousavi05/dl_seismology/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+This page contains the database and interactive plots for ... paper. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can modify or add your paper information into the database trough a ***pull request***. 
+To do so follow these steps:
+
+1. Fork the [dl_seismology](https://github.com/smousavi05/dl_seismology)
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create a new Pull Request
 
 ### Markdown
 

@@ -1,11 +1,10 @@
 ## DLS
+This page contains the database, interactive plots, and supplementary materials for ... paper. 
 
-This page contains the database and interactive plots for ... paper. 
- 
 ### Database
 You can find our database of DL-seismology paperes [here](https://github.com/smousavi05/dl_seismology/blob/main/docs/paper_test.csv)
 
-This is an example of data struncture in our database:
+This is an example of data structure in our database:
 
 ```markdown
 	{
@@ -36,7 +35,7 @@ This is an example of data struncture in our database:
 
 ### Updating The Database
 
-You can modify or add your paper information into the database trough a ***pull request***. 
+You can modify or add your paper information into the database through submitting a ***pull request***. 
 To do so follow these steps:
 
 1. Fork the [dl_seismology](https://github.com/smousavi05/dl_seismology)
@@ -57,5 +56,4 @@ These plots present hierarchical distribution of studies in our database based o
 
 You can find an updating glossary of seismological tasks and relevant machine learning techniques [here](https://smousavi05.gitbook.io/mlseismology/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

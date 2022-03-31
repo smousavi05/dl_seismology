@@ -1,8 +1,13 @@
-## DLS
-This page contains the database, interactive plots, and supplementary materials for ... paper. 
+## Deep-Learning Seismology
+
+This page contains the database, interactive plots, and supplementary materials for "Deep-Learning Seismology" paper. 
 
 ### Database
-You can find our database of DL-seismology paperes [here](https://github.com/smousavi05/dl_seismology/blob/main/docs/paper_test.csv)
+This is a dataset of 637 journal papers (last update Feb 2022) applying neural networks for various tasks in seismology spanning January 1988 to January 2022. The dataset mainly includes peer reviewed papers and does not contain duplicated works. It follows a hierarchical classification of papers based on seismological tasks (i.e. category, sub_category_I, sub_category_II, task, and sub_task). For each paper following information are provided: 1) first author's last name, 2) publication year, 3) paper's title, 4) journal 's name, 5) machine learning method used, 6) the type of used neural network, 7) the name of neural network architecture, 8) the number of neurons/kernels in each hidden layer, 9) type of training process, i.e. supervised, semi-supervised, etc, 10) input data into the network, 11) output data, 12) data domain, i.e. time, frequency, feature, etc, 13) the type of data used for training, e.g. synthetic or real data, 14) the size of training set, 15) the metrics used to measure the performance, 16) performance scores, 17) the baseline method used for evaluation, and 18) a short note summarizing the paper's objective, its approach, and its significance. 
+
+You can find a freezed and citable version of our database (as used in the paper) [here](https://zenodo.org/record/6386952#.YkT3fBPMJqs)
+
+You can find an updating version of our database [here](https://github.com/smousavi05/dl_seismology/blob/main/docs/paper_test.csv)
 
 This is an example of data structure in our database:
 
@@ -33,6 +38,28 @@ This is an example of data structure in our database:
 	},
  ```
 
+You can cite the dataset as:
+
+'''
+	S. Mostafa Mousavi, & Gregory Beroza. (2022). A dataset of published journal papers using neural networks for seismological tasks. (Version 101)  [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6386952
+'''
+ 
+ BibTeX:
+ 
+ '''
+	 @dataset{s_mostafa_mousavi_2022_6386952,
+	  author       = {S. Mostafa Mousavi and
+			  Gregory Beroza},
+	  title        = {{A dataset of published journal papers using neural 
+			   networks for seismological tasks.}},
+	  month        = mar,
+	  year         = 2022,
+	  publisher    = {Zenodo},
+	  version      = 101,
+	  doi          = {10.5281/zenodo.6386952},
+	  url          = {https://doi.org/10.5281/zenodo.6386952}
+	}
+	 '''
 ### Updating The Database
 
 You can modify or add your paper information into the database through submitting a ***pull request***. 

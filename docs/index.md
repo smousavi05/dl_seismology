@@ -40,13 +40,13 @@ This is an example of data structure in our database:
 
 You can cite the dataset as:
 
-'''
+```markdown
 	S. Mostafa Mousavi, & Gregory Beroza. (2022). A dataset of published journal papers using neural networks for seismological tasks. (Version 101)  [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6386952
-'''
+ ```
  
  BibTeX:
  
- '''
+```markdown
 	 @dataset{s_mostafa_mousavi_2022_6386952,
 	  author       = {S. Mostafa Mousavi and
 			  Gregory Beroza},
@@ -59,8 +59,9 @@ You can cite the dataset as:
 	  doi          = {10.5281/zenodo.6386952},
 	  url          = {https://doi.org/10.5281/zenodo.6386952}
 	}
-	 '''
-### Updating The Database
+ ```
+
+### Editing The Database
 
 You can modify or add your paper information into the database through submitting a ***pull request***. 
 To do so follow these steps:

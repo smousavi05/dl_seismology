@@ -7,7 +7,7 @@ This is a dataset of 637 journal papers (last update Feb 2022) applying neural n
 
 You can find a freezed and citable version of our database (as used in the paper) [here](https://zenodo.org/record/6386952#.YkT3fBPMJqs)
 
-You can find an updating version of our database [here](https://github.com/smousavi05/dl_seismology/blob/main/docs/paper_test.csv)
+You can find an updating version of our database [here](https://github.com/smousavi05/dl_seismology/blob/main/docs/paper_inventory_deep.csv)
 
 This is an example of data structure in our database:
 

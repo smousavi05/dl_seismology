@@ -4,6 +4,19 @@
 
 ![Deep-Learning Seismology](figure_summary2.png)
 
+
+### Interactive Plots
+
+Here you can see the interactive plots for [Figure_3a](https://smousavi05.github.io/dl_seismology/figure_3a.html) and [Figure_3b](https://smousavi05.github.io/dl_seismology/figure_3b.html).
+
+These plots present hierarchical distribution of studies in our database based on the seismological applications (a) and used neural network types (b).
+
+
+### ML-Seismology Glossary
+
+You can find an updating glossary of seismological tasks and relevant machine learning techniques [here](https://smousavi05.gitbook.io/mlseismology/)
+
+
 ### Database
 This is a dataset of 637 journal papers (last update Feb 2022) applying neural networks for various tasks in seismology spanning January 1988 to January 2022. The dataset mainly includes peer reviewed papers and does not contain duplicated works. It follows a hierarchical classification of papers based on seismological tasks (i.e. category, sub_category_I, sub_category_II, task, and sub_task). For each paper following information are provided: 1) first author's last name, 2) publication year, 3) paper's title, 4) journal 's name, 5) machine learning method used, 6) the type of used neural network, 7) the name of neural network architecture, 8) the number of neurons/kernels in each hidden layer, 9) type of training process, i.e. supervised, semi-supervised, etc, 10) input data into the network, 11) output data, 12) data domain, i.e. time, frequency, feature, etc, 13) the type of data used for training, e.g. synthetic or real data, 14) the size of training set, 15) the metrics used to measure the performance, 16) performance scores, 17) the baseline method used for evaluation, and 18) a short note summarizing the paper's objective, its approach, and its significance. 
 
@@ -50,18 +63,6 @@ To do so follow these steps:
 3. Commit your changes (git commit -am 'Add some feature'). You can use GitHub editor directly to change the CSV
 4. Push to the branch (git push origin my-new-feature)
 5. Create a new Pull Request
-
-
-### Interactive Plots
-
-Here you can see the interactive plots for [Figure_3a](https://smousavi05.github.io/dl_seismology/figure_3a.html) and [Figure_3b](https://smousavi05.github.io/dl_seismology/figure_3b.html).
-
-These plots present hierarchical distribution of studies in our database based on the seismological applications (a) and used neural network types (b).
-
-
-### ML-Seismology Glossary
-
-You can find an updating glossary of seismological tasks and relevant machine learning techniques [here](https://smousavi05.gitbook.io/mlseismology/)
 
 
 ### References:

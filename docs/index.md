@@ -1,6 +1,6 @@
 ## Deep-Learning Seismology
 
-## This page contains the database, interactive plots, and supplementary materials for ["Deep-Learning Seismology"](https://www.science.org/stoken/author-tokens/ST-669/full)paper. 
+### This page contains the database, interactive plots, and supplementary materials for ["Deep-Learning Seismology"](https://www.science.org/stoken/author-tokens/ST-669/full)paper. 
 
 ![Deep-Learning Seismology](figure_summary2.png)
 

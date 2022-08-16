@@ -45,7 +45,23 @@ You can cite the dataset as:
  ```
  
  BibTeX:
- 
+
+```markdown
+	article{
+	doi:10.1126/science.abm4470,
+	author = {S. Mostafa Mousavi  and Gregory C. Beroza },
+	title = {Deep-learning seismology},
+	journal = {Science},
+	volume = {377},
+	number = {6607},
+	pages = {eabm4470},
+	year = {2022},
+	doi = {10.1126/science.abm4470},
+	URL = {https://www.science.org/doi/abs/10.1126/science.abm4470},
+	eprint = {https://www.science.org/doi/pdf/10.1126/science.abm4470},
+	abstract = {}}
+```
+
 ```markdown
 	 @dataset{s_mostafa_mousavi_2022_6386952,
 	  author       = {S. Mostafa Mousavi and

@@ -1,7 +1,6 @@
 ## Deep-Learning Seismology
 
-This page contains the database, interactive plots, and supplementary materials for "Deep-Learning Seismology" paper. 
-#### Free-Access Link to the Paper: https://www.science.org/stoken/author-tokens/ST-669/full
+## This page contains the database, interactive plots, and supplementary materials for ["Deep-Learning Seismology"](https://www.science.org/stoken/author-tokens/ST-669/full)paper. 
 
 ![Deep-Learning Seismology](figure_summary2.png)
 
@@ -12,7 +11,7 @@ You can find a freezed and citable version of our database (as used in the paper
 
 You can find an updating version of our database [here](https://github.com/smousavi05/dl_seismology/blob/main/docs/paper_inventory_deep.csv)
 
-This is an example of data structure in our database:
+#### This is an example of data structure in our database:
 
 ```markdown
    {
@@ -40,15 +39,14 @@ This is an example of data structure in our database:
     "notes": "The main contribution of this paper is the use of U-Net. The prediction in the model space has dimensions of 201# 301; interestingly, the spatial dimensions of the input coincide with the second spatial dimension of the predictions, which is basically the number of receivers per shot. The U-Net architecture on the encoder side is composed by 10 2D convolutional layers interleaved with batch normalization and using ReLU as the activation function. For connecting layers, every two 2D convolutional layers are placed between the encoder and decoder. The decoder section is composed of eight 2D convolutional layers and interleaved with the corresponding deconvolution layers. The ADAM optimizer is using during training, with two different numbers of epochs, depending on which data set is used as input, learning rate, and batch size constant. Results are presented as the comparison between the CNN predictions and a MS-FWI solver, for which the starting model is a smoothed version of the ground truth. The first set of results (for a CNN trained with synthetic data) presented is competitive with FWI solutions; the salt bodies are identified and properly placed, but the boundaries are less continuous than the FWI solution, as can observed in Figure 12(c)."
 	},
  ```
-
-You can cite the dataset as:
+ 
+#### You can cite the paper as:
 
 ```markdown
-	S. Mostafa Mousavi, & Gregory Beroza. (2022). A dataset of published journal papers using neural networks for seismological tasks. (Version 101)  [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6386952
- ```
- 
- BibTeX:
+	Mousavi, S. M., & Beroza, G. C. (2022). Deep-learning seismology. Science, 377(6607), eabm4470.
+```
 
+ BibTeX:
 ```markdown
 	article{
 	doi:10.1126/science.abm4470,
@@ -64,6 +62,14 @@ You can cite the dataset as:
 	eprint = {https://www.science.org/doi/pdf/10.1126/science.abm4470},
 	abstract = {}}
 ```
+
+#### You can cite the dataset as:
+
+```markdown
+	S. Mostafa Mousavi, & Gregory Beroza. (2022). A dataset of published journal papers using neural networks for seismological tasks. (Version 101)  [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6386952
+ ```
+ 
+ BibTeX:
 
 ```markdown
 	 @dataset{s_mostafa_mousavi_2022_6386952,

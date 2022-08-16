@@ -1,6 +1,9 @@
 # [Deep Learning Seismology](https://smousavi05.github.io/dl_seismology/). 
 
 ## This repository contains the database and supporting materials for Deep Learning Seismology paper.
+
+![Deep-Learning Seismology](dl-seismology.png)
+
 Free-Access Link to the Paper: https://www.science.org/stoken/author-tokens/ST-669/full
 
 

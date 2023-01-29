@@ -88,27 +88,3 @@ To do so follow these steps:
 	URL = {https://www.science.org/doi/abs/10.1126/science.abm4470},
 	eprint = {https://www.science.org/doi/pdf/10.1126/science.abm4470},
 	abstract = {}}
-```
-
-#### You can cite the dataset as:
-
-```markdown
-	S. Mostafa Mousavi, & Gregory Beroza. (2022). A dataset of published journal papers using neural networks for seismological tasks. (Version 101)  [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6386952
- ```
- 
- BibTeX:
-
-```markdown
-	 @dataset{s_mostafa_mousavi_2022_6386952,
-	  author       = {S. Mostafa Mousavi and
-			  Gregory Beroza},
-	  title        = {{A dataset of published journal papers using neural 
-			   networks for seismological tasks.}},
-	  month        = mar,
-	  year         = 2022,
-	  publisher    = {Zenodo},
-	  version      = 101,
-	  doi          = {10.5281/zenodo.6386952},
-	  url          = {https://doi.org/10.5281/zenodo.6386952}
-	}
- ```
